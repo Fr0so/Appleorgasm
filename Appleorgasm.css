@@ -1,0 +1,101 @@
+body{
+	background-color:#b8dfff;
+}
+
+#header{
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+	font-size:50px
+}
+
+.button{
+	padding:10px 15px;
+	border:none;
+
+}
+
+.button:hover{
+	background-color:#33495b;
+}
+
+
+#nav{
+	background-color:#20abdd;
+	color:white;
+	text-align:center;
+	padding:10px;
+
+}
+
+#nav ul{
+	list-style:none;
+}
+
+#nav li{
+	display:inline;
+}
+
+#nav a{
+	text-decoration:none;
+	margin:125px;
+	font-size:25px;
+	font-family: 'Indie Flower', cursive;
+	color:#b8dfff;
+	padding:15px 40px;
+}
+
+
+#showcase{
+	text-align:center;
+	margin-top:50px;
+	font-family: 'Indie Flower', cursive;
+	font-size:40px;
+}
+
+.text{
+	margin-top:50px;
+	background-color:#20abdd;
+	color:#b8dfff;
+	padding:75px;
+	text-align:left;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#appleosip{
+	position: absolute;
+	height:100px;
+	width:100px;
+    bottom:0px;
+    left:50px;
+    animation: appleosip 12.5s infinite linear;
+
+}
+
+@keyframes appleosip {
+    0% {left: -400px;}
+    100% {left: 100%;}
+}
+
+
+#main-footer{
+	background-color:#20abdd;
+	color:#b8dfff;
+	text-align:right;
+	padding:10px;
+	margin-top:150px;
+	font-size:8px;
+}
+
+#main-footer a{
+	text-decoration:none;
+	color:#b8dfff;
+}
+
+.footer-button{
+	padding:10px 15px;
+	border:none;
+}
+
+.footer-button:hover{
+	background-color:#33495b;
+}
