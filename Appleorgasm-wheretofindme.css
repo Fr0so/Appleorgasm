@@ -58,15 +58,13 @@ body{
 	padding:10px 0px 5px 0px;
 }
 
-#discord{
-	
-}
 
-#appleolve {
+
+#appleolove {
 	position: absolute;
 	height:100px;
 	width:100px;
-    bottom:0px;
+    bottom:-260px;
     left:50px;
     animation: appleolove 12.5s infinite linear;
 
