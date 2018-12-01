@@ -1,0 +1,100 @@
+body{
+	background-color:#e88b87;
+}
+
+#header{
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+	font-size:50px
+}
+
+.button{
+	padding:10px 15px;
+	border:none;
+
+}
+
+.button:hover{
+	background-color:#33495b;
+}
+
+
+#nav{
+	background-color:#b84b47;
+	color:white;
+	text-align:center;
+	padding:10px;
+
+}
+
+#nav ul{
+	list-style:none;
+}
+
+#nav li{
+	display:inline;
+}
+
+#nav a{
+	text-decoration:none;
+	margin:125px;
+	font-size:25px;
+	font-family: 'Indie Flower', cursive;
+	color:#b8dfff;
+	padding:15px 40px;
+}
+
+
+#showcase{
+	text-align:center;
+	margin-top:50px;
+	font-family: 'Indie Flower', cursive;
+	font-size:40px;
+}
+
+#twitch-embed{
+	text-align:center;
+	background-color:#b84b47;
+	padding:10px 0px 5px 0px;
+}
+
+
+
+#appleolove {
+	position: absolute;
+	height:100px;
+	width:100px;
+    bottom:-260px;
+    left:50px;
+    animation: appleolove 12.5s infinite linear;
+
+}
+
+@keyframes appleolove {
+    0% {left: -400px;}
+    100% {left: 93%;}
+}
+
+
+#main-footer{
+	background-color:#b84b47;
+	color:#b8dfff;
+	text-align:right;
+	padding:10px;
+	margin-top:150px;
+	font-size:8px;
+}
+
+#main-footer a{
+	text-decoration:none;
+	color:#b8dfff;
+}
+
+.footer-button{
+	padding:10px 15px;
+	border:none;
+}
+
+.footer-button:hover{
+	background-color:#33495b;
+}
