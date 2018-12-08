@@ -1,5 +1,7 @@
 body{
 	background-color:#e88b87;
+	margin:0px;
+	overflow-x:hidden;
 }
 
 #header{
@@ -37,7 +39,7 @@ body{
 
 #nav a{
 	text-decoration:none;
-	margin:125px;
+	margin:80px;
 	font-size:25px;
 	font-family: 'Indie Flower', cursive;
 	color:#b8dfff;
@@ -60,7 +62,8 @@ body{
 
 
 
-#appleolove {
+
+#appleolove{
 	position: absolute;
 	height:100px;
 	width:100px;
@@ -72,7 +75,7 @@ body{
 
 @keyframes appleolove {
     0% {left: -400px;}
-    100% {left: 93%;}
+    100% {left: 100%;}
 }
 
 
