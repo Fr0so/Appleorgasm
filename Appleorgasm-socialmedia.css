@@ -61,15 +61,23 @@ body{
 	background-color:#20abdd;
 	color:#b8dfff;
 	padding:75px;
+	text-align:center;
 }
 
+
+.billede{
+	border-radius:100%;
+	height:150px;
+	width:225px;
+	margin:0px 100px 0px 100px;
+}
 
 
 #appleosip{
 	position: absolute;
 	height:100px;
 	width:100px;
-    bottom:0px;
+    bottom:-88px;
     left:50px;
     animation: appleosip 12.5s infinite linear;
 
