@@ -1,5 +1,5 @@
 body{
-	background-color:#b8dfff;
+	background-color:#81698c;
 	margin: 0px;
 	overflow-x: hidden;
 	box-sizing: border-box;
@@ -18,12 +18,12 @@ body{
 }
 
 .button:hover{
-	background-color:#33495b;
+	background-color:#4e0072;
 }
 
 
 #nav{
-	background-color:#20abdd;
+	background-color:#607;
 	color:white;
 	text-align:center;
 	padding:10px;
@@ -43,7 +43,7 @@ body{
 	margin:80px;
 	font-size:25px;
 	font-family: 'Indie Flower', cursive;
-	color:#b8dfff;
+	color:#81698c;
 	padding:15px 40px;
 }
 
@@ -58,10 +58,11 @@ body{
 
 .container{
 	margin-top:50px;
-	background-color:#20abdd;
+	background-color:#607;
 	color:#b8dfff;
 	padding:75px;
 	text-align:center;
+	text-decoration:none;
 }
 
 
@@ -70,11 +71,11 @@ body{
 	height:150px;
 	width:225px;
 	margin:0px 100px 0px 100px;
+	text-decoration:none;
+
 }
 
-.container p{
-	visibility:hidden;
-}
+
 
 #appleoblush{
 	position: absolute;
@@ -93,8 +94,8 @@ body{
 
 
 #main-footer{
-	background-color:#20abdd;
-	color:#b8dfff;
+	background-color:#607;
+	color:#81698c;
 	text-align:right;
 	padding:10px;
 	margin-top:150px;
@@ -103,7 +104,7 @@ body{
 
 #main-footer a{
 	text-decoration:none;
-	color:#b8dfff;
+	color:#81698c;
 }
 
 .footer-button{
@@ -112,5 +113,5 @@ body{
 }
 
 .footer-button:hover{
-	background-color:#33495b;
+	background-color:#4e0072;
 }

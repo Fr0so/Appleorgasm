@@ -1,0 +1,150 @@
+body{
+	background-color:#fff;
+	margin: 0px;
+	overflow-x: hidden;
+}
+
+#header{
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+	font-size:50px
+}
+
+.button{
+	padding:10px 15px;
+	border:none;
+
+}
+
+.button:hover{
+	background-color:#33495b;
+}
+
+
+#nav{
+	background-color:#20abdd;
+	color:white;
+	text-align:center;
+	padding:10px;
+
+}
+
+#nav ul{
+	list-style:none;
+}
+
+#nav li{
+	display:inline;
+}
+
+#nav a{
+	text-decoration:none;
+	margin:80px;
+	font-size:25px;
+	font-family: 'Indie Flower', cursive;
+	color:#b8dfff;
+	padding:15px 40px;
+}
+
+
+#showcase{
+	text-align:center;
+	margin-top:50px;
+	font-family: 'Indie Flower', cursive;
+	font-size:40px;
+}
+
+.dropdowns{
+	margin-top:50px;
+	background-color:#20abdd;
+	color:#b8dfff;
+	padding:75px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.dropbutton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    margin:0px 270px;
+}
+
+#pc {
+    position: relative;
+    display: inline-block;
+}
+
+#gear {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+#pc:hover .dropdown-content {display: block;}
+
+#pc:hover .dropbutton {background-color: #3e8e41;}
+
+#gear:hover .dropdown-content {display: block;}
+
+#gear:hover .dropbutton {background-color: #3e8e41;}
+
+
+
+#appleosip{
+	position: absolute;
+	height:100px;
+	width:100px;
+    bottom:0px;
+    left:50px;
+    animation: appleosip 12.5s infinite linear;
+
+}
+
+@keyframes appleosip {
+    0% {left: -400px;}
+    100% {left: 100%;}
+}
+
+
+#main-footer{
+	background-color:#20abdd;
+	color:#b8dfff;
+	text-align:right;
+	padding:10px;
+	margin-top:150px;
+	font-size:8px;
+}
+
+#main-footer a{
+	text-decoration:none;
+	color:#b8dfff;
+}
+
+.footer-button{
+	padding:10px 15px;
+	border:none;
+}
+
+.footer-button:hover{
+	background-color:#33495b;
+}

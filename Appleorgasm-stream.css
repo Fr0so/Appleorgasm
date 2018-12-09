@@ -17,13 +17,12 @@ body{
 }
 
 .button:hover{
-	background-color:#33495b;
+	background-color:#962013;
 }
 
 
 #nav{
 	background-color:#b84b47;
-	color:white;
 	text-align:center;
 	padding:10px;
 
@@ -42,7 +41,7 @@ body{
 	margin:80px;
 	font-size:25px;
 	font-family: 'Indie Flower', cursive;
-	color:#b8dfff;
+	color:#e88b87;
 	padding:15px 40px;
 }
 
@@ -81,7 +80,7 @@ body{
 
 #main-footer{
 	background-color:#b84b47;
-	color:#b8dfff;
+	color:#e88b87;
 	text-align:right;
 	padding:10px;
 	margin-top:150px;
@@ -90,7 +89,7 @@ body{
 
 #main-footer a{
 	text-decoration:none;
-	color:#b8dfff;
+	color:#e88b87;
 }
 
 .footer-button{
@@ -99,5 +98,5 @@ body{
 }
 
 .footer-button:hover{
-	background-color:#33495b;
+	background-color:#962013;
 }
