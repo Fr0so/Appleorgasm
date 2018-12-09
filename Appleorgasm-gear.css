@@ -69,12 +69,15 @@ body{
     padding: 16px;
     font-size: 16px;
     border: none;
-    margin:0px 270px;
+    width:200px;
+    
 }
 
 #pc {
     position: relative;
     display: inline-block;
+    margin:0px 270px;
+    width:200px; 
 }
 
 #gear {
@@ -98,15 +101,26 @@ body{
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover{
+	background-color: #ddd;
+}
 
-#pc:hover .dropdown-content {display: block;}
+#pc:hover .dropdown-content{
+	display: block;
+}
 
-#pc:hover .dropbutton {background-color: #3e8e41;}
+#pc:hover .dropbutton{
+	background-color: #3e8e41;
+}
 
-#gear:hover .dropdown-content {display: block;}
 
-#gear:hover .dropbutton {background-color: #3e8e41;}
+#gear:hover .dropdown-content{
+	display: block;
+}
+
+#gear:hover .dropbutton{
+	background-color: #3e8e41;
+}
 
 
 
