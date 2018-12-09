@@ -72,18 +72,21 @@ body{
 	margin:0px 100px 0px 100px;
 }
 
+.container p{
+	visibility:hidden;
+}
 
-#appleosip{
+#appleoblush{
 	position: absolute;
 	height:100px;
 	width:100px;
     bottom:-88px;
     left:50px;
-    animation: appleosip 12.5s infinite linear;
+    animation: appleoblush 12.5s infinite linear;
 
 }
 
-@keyframes appleosip {
+@keyframes appleoblush {
     0% {left: -400px;}
     100% {left: 100%;}
 }
