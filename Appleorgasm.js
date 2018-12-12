@@ -1,3 +1,3 @@
 $('#appleosip').click(function(){
-	$('#sip').play()
+	$('#sip')[0].play();
 });
