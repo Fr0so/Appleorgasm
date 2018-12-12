@@ -79,6 +79,12 @@ body{
 }
 
 
+#slurp{
+	display:none;
+}
+
+
+
 #main-footer{
 	background-color:#20abdd;
 	color:#b8dfff;
