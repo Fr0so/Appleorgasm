@@ -1,5 +1,3 @@
-
 $('#appleosip').click(function(){
-	$('#slurp').play()
-});	
-
+	$('#sip').play()
+});
