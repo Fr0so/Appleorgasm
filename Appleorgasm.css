@@ -63,6 +63,11 @@ body{
 	font-family: 'Open Sans', sans-serif;
 }
 
+
+#sip{
+	display:none;
+}
+
 #appleosip{
 	position: absolute;
 	height:100px;
